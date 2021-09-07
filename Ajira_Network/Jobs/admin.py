@@ -26,4 +26,3 @@ class JobAdmin(admin.ModelAdmin):
         obj.save()
 
 admin.site.register(Job, JobAdmin)
-
